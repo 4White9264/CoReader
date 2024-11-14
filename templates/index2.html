@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 设置页面标题 -->
+    <title>ArXiv Article Summarizer and PDF Downloader</title>
+</head>
+<body>
+    <!-- 页面主标题 -->
+    <h1>ArXiv Article Summarizer and PDF Downloader</h1>
+    <!-- 表单，用于提交文章标题 -->
+    <form action="/fetch" method="post">
+        <!-- 文本区域，用于输入多个文章标题，每行一个 -->
+        <textarea name="article_titles" rows="10" cols="50" placeholder="Enter the article titles (one per line):"></textarea><br>
+        <!-- 提交按钮 -->
+        <button type="submit">Fetch Article Details</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 设置文档的字符编码为 UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- 设置视口，以确保页面在移动设备上显示良好 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 使用 Jinja2 语法插入文章标题 -->
+    <title>{{ article.title }}</title>
+    <!-- 链接到一个 CSS 样式表，用于页面样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- 页面内容的容器 -->
+    <div class="container">
+        <!-- 使用 Jinja2 语法插入文章标题 -->
+        <h1>{{ article.title }}</h1>
+        <!-- 使用 Jinja2 语法插入作者姓名 -->
+        <h2>{{ article.author_name }}</h2>
+        
+        <!-- 可展开的内容部分 -->
+        <div class="expander">
+            <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+            <h3 onclick="toggleVisibility('section1')">Section 1: Paper Summary</h3>
+            <!-- 内容部分，初始状态为隐藏 -->
+            <div id="section1" class="content-box" style="display:none;">
+                <!-- 使用 Jinja2 语法插入文章的摘要 -->
+                <p><strong>Publish Date:</strong> {{ article.published }}</p>
+
+                <p><strong>Summary:</strong> {{ article.summary }}</p>
+                <!-- 使用 Jinja2 语法插入文章的片段 -->
+
+                <p><strong>Logical chain:</strong> {{ article.logical_chain }}</p>
+                <!-- 内部可展开的内容部分 -->
+                <div class="expander">
+                    <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+                    <h4 onclick="toggleVisibility('Summaries')">Each Chapter's Summary</h4>
+                    <!-- 内容部分，初始状态为隐藏 -->
+                    <div id="Summaries" class="content-box" style="display:none;">
+                        <!-- 使用 Jinja2 循环语法插入各个章节的总结 -->
+                        {% for key, value in article.Summaries.items() %}
+                            <p><strong>{{ key }}:</strong> {{ value }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="expander">
+                    <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+                    <h4 onclick="toggleVisibility('AI Review')">AI Review</h4>
+                    <!-- 内容部分，初始状态为隐藏 -->
+                    <div id="AI Review" class="content-box" style="display:none;">
+                        <!-- 使用 Jinja2 语法插入AI 评论 -->
+                        <p> <strong>AI Comments:</strong>{{ article.evaluation_from_ai}}</p>
+                        <p><strong>AI Suggest Substitute:</strong></p>
+                        <p>{{ article.substitute_paper1_names }}</p>
+                        <p>{{ article.substitute_paper2_names }}</p>
+                        <p>{{ article.substitute_paper3_names }}</p>
+                    </div>
+                </div>
+
+
+                <!-- 使用 Jinja2 语法插入 PDF 链接 -->
+                <p><strong>PDF Link:</strong> <a href="{{ article.pdf_link }}">{{ article.pdf_link }}</a></p>
+            </div>
+        </div>
+
+        <!-- 可展开的内容部分 -->
+        <div class="expander">
+            <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+            <h3 onclick="toggleVisibility('section2')">Section 2: Paper Related Info</h3>
+            <!-- 内容部分，初始状态为隐藏 -->
+            <div id="section2" class="content-box-grey" style="display:none;">
+
+                <!-- 内部可展开的内容部分 -->
+                <div class="expander">
+                    <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+                    <h4 onclick="toggleVisibility('author_info')">First Author Info</h4>
+                    <!-- 内容部分，初始状态为隐藏 -->
+                    <div id="author_info" class="content-box" style="display:none;">
+                        <!-- 使用 Jinja2 语法插入作者信息 -->
+                        <p><strong>Name:</strong> {{ article.first_author_info_name }}</p>
+                        <p><strong>Affiliation:</strong> {{ article.first_author_info_affiliation }}</p>
+                        <p><strong>Google Scholar Id:</strong> {{ article.first_author_info_scholar_id }}</p>
+                        <p><strong>Amount of Citation:</strong> {{ article.first_author_info_citation }}</p>
+                        <p><strong>Amount of Publications:</strong> {{ article.first_author_info_num_publications }}</p>
+                        <p><strong>H-index:</strong> {{ article.first_author_info_hindex }}</p>
+                        <p><strong>H-index 5 Years:</strong> {{ article.first_author_info_hindex5y }}</p>
+                        <p><strong>i10-Index:</strong> {{ article.first_author_info_i10index }}</p>
+                        <p><strong>i10-Index 5 Years:</strong> {{ article.first_author_info_i10index5y }}</p>
+                        <p><strong>Latest Publications (Title/Year):</strong> {{ article.first_author_info_latest_three1 }}</p>
+                        <p> {{ article.first_author_info_latest_three2 }}</p>
+                        <p> {{ article.first_author_info_latest_three3 }}</p>
+                    </div>
+                </div>
+
+                <div class="expander">
+                    <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+                    <h4 onclick="toggleVisibility('cited_by_info')">Articles which cited this paper</h4>
+                    <!-- 内容部分，初始状态为隐藏 -->
+                    <div id="cited_by_info" class="content-box" style="display:none;">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript 函数，用于切换指定 id 的元素的可见性 -->
+    <script>
+        function toggleVisibility(id) {
+            // 获取指定 id 的元素
+            var element = document.getElementById(id);
+            // 切换元素的显示状态
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var citedByStatus = "{{ article.cited_by_articles.Status }}";
+        // 根据判断结果显示不同的内容
+        if (citedByStatus == "OK") {
+            document.getElementById('cited_by_info').innerHTML = `
+                <!-- 使用 Jinja2 语法插入信息 -->
+                <p><strong>Cited by Total:</strong> {{ article.cited_by_articles.cited_by_num }}</p>
+                {% for key, value in article.cited_by_articles.cited_by_details.items() %}
+                    <div class="expander">
+                        <!-- 标题，带有 onclick 事件处理器，用于切换内容的可见性 -->
+                        <h4 onclick="toggleVisibility('Article{{ loop.index }}')"> Article {{ loop.index }} </h4>
+                        <!-- 内容部分，初始状态为隐藏 -->
+                        <div id="Article{{ loop.index }}" class="content-box" style="display:none;">
+                            <!-- 使用 Jinja2 语法插入文章的摘要 -->
+                            <p><strong>title:</strong> {{ value.title }}</p>
+                            <p><strong>snippet:</strong> {{ value.snippet }} </p>
+                        </div>
+                    </div>
+                {% endfor %}`;
+        } else {
+            document.getElementById('cited_by_info').innerHTML = `<p><strong> {{ article.cited_by_articles.Error_info }} </strong></p>`;
+        }
+    });
+    </script>
+</body>
+</html>

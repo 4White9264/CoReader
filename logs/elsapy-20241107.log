@@ -1,0 +1,144 @@
+2024-11-07 13:06:17,943 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:06:18,990 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:06:18,990 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:06:18,991 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:06:18,991 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:06:18,992 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:06:32,062 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:06:32,383 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:06:32,384 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:06:32,384 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:06:32,385 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:06:32,385 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:06:33,063 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2024-11-07 13:06:33,645 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '101a5c0bb191f2c4f5931930171aeeb6', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2024-11-07 13:06:34,645 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/affiliation/affiliation_id/60101411
+2024-11-07 13:06:35,822 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/affiliation/affiliation_id/60101411
+and using headers {'X-ELS-APIKey': '101a5c0bb191f2c4f5931930171aeeb6', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2024-11-07 13:06:36,822 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2024-11-07 13:06:38,188 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/abstract/scopus_id/84872135457
+2024-11-07 13:06:38,188 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/abstract/scopus_id/84872135457 to file
+2024-11-07 13:06:39,188 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/pii/S1674927814000082
+2024-11-07 13:17:57,924 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:17:58,240 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:17:58,240 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:17:58,241 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:17:58,241 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:17:58,241 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:17:58,925 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/result?query=star+trek+vs+star+wars
+2024-11-07 13:18:49,692 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:18:50,163 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:18:50,163 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:18:50,163 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:18:50,164 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:18:50,164 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:18:50,692 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/result?query=star+trek+vs+star+wars
+2024-11-07 13:19:47,906 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:19:48,286 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:19:48,286 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:19:48,286 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:19:48,287 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:19:48,287 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:19:48,906 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/sciencedirect?query=star+trek+vs+star+wars
+2024-11-07 13:20:54,100 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:20:54,436 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:20:54,437 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:20:54,437 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:20:54,437 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:20:54,438 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:20:55,100 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/author/author_id/7004367821
+2024-11-07 13:20:56,296 - elsapy.elsentity - WARNING - HTTP 401 Error from https://api.elsevier.com/content/author/author_id/7004367821
+and using headers {'X-ELS-APIKey': '101a5c0bb191f2c4f5931930171aeeb6', 'User-Agent': 'elsapy-v0.5.1', 'Accept': 'application/json'}:
+{"service-error":{"status":{"statusCode":"AUTHORIZATION_ERROR","statusText":"The requestor is not authorized to access the requested view or fields of the resource"}}}
+2024-11-07 13:22:45,097 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:22:45,584 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:22:45,584 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:22:45,584 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:22:45,585 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:22:45,585 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:22:46,098 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/article/doi/10.1016/j.jval.2024.05.006
+2024-11-07 13:22:47,373 - elsapy.elsentity - INFO - Data loaded for https://api.elsevier.com/content/article/doi/10.1016/j.jval.2024.05.006
+2024-11-07 13:22:47,374 - elsapy.elsentity - INFO - Wrote https://api.elsevier.com/content/article/doi/10.1016/j.jval.2024.05.006 to file
+2024-11-07 13:23:37,399 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:23:37,802 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:23:37,802 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:23:37,802 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:23:37,803 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:23:37,803 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:23:38,399 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:41,416 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:43,473 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:45,921 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:48,359 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:50,350 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=125&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:54,342 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=150&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:56,994 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=175&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:23:59,022 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=200&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:01,103 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=225&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:03,161 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=250&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:05,418 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=275&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:07,435 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=300&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:09,393 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=325&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:11,875 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=350&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:13,857 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=375&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:15,751 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=400&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:17,793 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=425&count=25&query=AFFIL%28dartmouth%29+AND+AUTHOR-NAME%28lewis%29+AND+PUBYEAR+%3E+2011
+2024-11-07 13:24:18,655 - elsapy.utils - INFO - Converting prism:coverDate
+2024-11-07 13:25:17,156 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:25:17,546 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:25:17,546 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:25:17,546 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:25:17,547 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:25:17,547 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:25:18,157 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=AI
+2024-11-07 13:25:20,007 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=25&count=25&query=AI
+2024-11-07 13:25:21,834 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=50&count=25&query=AI
+2024-11-07 13:25:24,801 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=75&count=25&query=AI
+2024-11-07 13:25:26,781 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=100&count=25&query=AI
+2024-11-07 13:25:28,908 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=125&count=25&query=AI
+2024-11-07 13:25:30,868 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=150&count=25&query=AI
+2024-11-07 13:25:34,125 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=175&count=25&query=AI
+2024-11-07 13:25:36,212 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=200&count=25&query=AI
+2024-11-07 13:25:38,268 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=225&count=25&query=AI
+2024-11-07 13:25:40,388 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=250&count=25&query=AI
+2024-11-07 13:25:42,631 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=275&count=25&query=AI
+2024-11-07 13:25:44,821 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=300&count=25&query=AI
+2024-11-07 13:25:47,035 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?start=325&count=25&query=AI
+2024-11-07 13:25:49,060 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:25:49,427 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:25:49,427 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:25:49,427 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:25:49,428 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:25:49,428 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:25:50,060 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/scopus?query=Consolidated+Health+Economic+Evaluation+Reporting+Standards+for+Interventions+That+Use+Artificial+Intelligence+%28CHEERS-AI%29
+2024-11-07 13:32:24,340 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:32:24,667 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:32:24,667 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:32:24,667 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:32:24,668 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:32:24,668 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:32:25,340 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Morozov%29+AUTHFIRST%28Yurii%29
+2024-11-07 13:35:40,597 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:35:40,953 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:35:40,954 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:35:40,954 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:35:40,954 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:35:40,955 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:35:41,597 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Morozov%29+AUTHFIRST%28Yurii%29
+2024-11-07 13:36:02,309 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:36:02,628 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:36:02,629 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:36:02,629 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:36:02,630 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:36:02,630 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:36:03,309 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/author?query=AUTHLASTNAME%28Morozov%29+AUTHFIRST%28Yurii%29
+2024-11-07 13:36:32,214 - elsapy.elsclient - INFO - Module loaded.
+2024-11-07 13:36:32,599 - elsapy.elsentity - INFO - Module loaded.
+2024-11-07 13:36:32,600 - elsapy.utils - INFO - Module loaded.
+2024-11-07 13:36:32,600 - elsapy.elsprofile - INFO - Module loaded.
+2024-11-07 13:36:32,600 - elsapy.elsdoc - INFO - Module loaded.
+2024-11-07 13:36:32,601 - elsapy.elssearch - INFO - Module loaded.
+2024-11-07 13:36:33,215 - elsapy.elsclient - INFO - Sending GET request to https://api.elsevier.com/content/search/affiliation?query=+AFFIL%28Notre+Dame%29

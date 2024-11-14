@@ -1,0 +1,41 @@
+Running paper_info.py with title: "Noncommutative Poisson structure and invariants of matrices"
+Retrieving information for paper: Noncommutative Poisson structure and invariants of matrices
+Title: Noncommutative Poisson structure and invariants of matrices
+Link: https://arxiv.org/abs/2402.06909
+Snippet: We introduce a novel approach that employs techniques from noncommutative Poisson geometry to comprehend the algebra of invariants of two $ n\times n $ matrices. We entirely solve the open problem of computing the algebra of invariants of two $4\times 4$ matrices. As an application, we derive the complete description of the invariant commuting variety of $4\times 4$ matrices and the fourth Calogero-Moser space.
+Summary: F Eshmatov, X García-Martínez, R Turdibaev - arXiv preprint arXiv …, 2024 - arxiv.org
+Authors: F Eshmatov, X García-Martínez, R Turdibaev
+Journal: arXiv preprint arXiv …
+Cited by: N/A
+No matching journal found in jcr.xls
+
+
+Running author_info.py with author: "Farkhod Eshmatov"
+Retrieving information for author: Farkhod Eshmatov
+Author Info:
+name: Farkhod Eshmatov
+affiliation: Professor of Mathematics, AKFA University
+email: Verified email at akfauniversity.org
+top3_publications: []
+google_scholar_profile: https://scholar.google.com/citations?user=K23i7AcAAAAJ&hl=en&oi=ao
+search_link: https://scholar.google.com/scholar?q=Farkhod+Eshmatov&hl=en
+
+Top 3 Publications:
+Title: Noncommutative Poisson structures, derived representation schemes and Calabi-Yau algebras, Link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K23i7AcAAAAJ&citation_for_view=K23i7AcAAAAJ:u-x6o8ySG0sC, Cited by: 33
+Title: Recollement of deformed preprojective algebras and the Calogero-Moser correspondence, Link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K23i7AcAAAAJ&citation_for_view=K23i7AcAAAAJ:Y0pCki6q_DkC, Cited by: 18
+Title: The derived non-commutative Poisson bracket on Koszul Calabi–Yau algebras, Link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=K23i7AcAAAAJ&citation_for_view=K23i7AcAAAAJ:hqOjcs7Dif8C, Cited by: 13
+
+
+Summary:
+
+Farkhod Eshmatov is a Professor of Mathematics at AKFA University, with a verified email address. He has published research in the fields of mathematics, specifically in noncommutative Poisson structures, Calabi-Yau algebras, and derived representation schemes. His work has been cited by 33 sources, with links to his Google Scholar profile and other scholarly articles.
+Retrieving information for author: Farkhod Eshmatov
+Interests: 
+h-index: 8
+i10-index: 7
+Cited by: 155
+
+h-index Score: 5.33
+i10-index Score: 1.56
+Total Citations Score: 0.52
+Total Score: 7.41

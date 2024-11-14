@@ -1,0 +1,71 @@
+
+{
+    "cited_by_articles": {
+        "Status": "OK",
+        "cited_by_num": 21,
+        "cited_by_details": {
+            "cited_by_0": {
+                "title": "Automatic belief network modeling via policy inference for SDN fault localization",
+                "snippet": "Fault localization for SDN becomes one of the most critical but difficult tasks. Existing tools typically only address a specific part of the problem (eg, control plane verification, flow …"
+            },
+            "cited_by_1": {
+                "title": "A survey of fault management in network virtualization environments: Challenges and solutions",
+                "snippet": "The advent of 5G and the ever increasing stringent requirements in terms of bandwidth, latency, and quality of service pushes the boundaries of what is feasible with legacy Mobile …"
+            },
+            "cited_by_2": {
+                "title": "Self-healing topology discovery protocol for software-defined networks",
+                "snippet": "This letter presents the design of a self-healing protocol for automatic discovery and maintenance of the network topology in software-defined networks. The proposed protocol …"
+            }
+        }
+    },
+    "related_work": {
+        "Self-Modeling Based Diagnosis of Software-Defined Networks": "The related work discusses various approaches to model-based diagnosis in dynamic networks, emphasizing the challenges of creating dependency graphs automatically. It includes comparisons of methods that employ statistical tests and Bayesian Networks, revealing their limitations in granularity and scope, particularly in not accounting for virtual resources and smaller network components."
+    },
+    "logical_chain": "The article presents a systematic argumentation process that identifies the challenges in diagnosing dynamic networks facilitated by SDN and NFV, proposes a refined model-based diagnosis framework through self-modeling that captures finer dependencies among network elements, and validates the proposed framework with practical simulations, showcasing the necessity and effectiveness of its application in achieving resilient network systems.",
+    "Summaries": {
+        "I. INTRODUCTION": "This section outlines the importance of SDN and NFV as innovative solutions for network management that aim to enhance flexibility, service speed, and cost efficiency. It introduces the concept of self-diagnosis as crucial for resiliency and presents the primary contributions of the paper: defining granular templates and validating a self-modeling diagnosis approach.",
+        "II. MOTIVATION": "The motivation section describes the need for effective dependency modeling in SDN and NFV environments, as these networks face continuous changes. It highlights key challenges such as the dynamic nature of service dependencies and the fluctuating topology due to factors such as VNF migrations.",
+        "III. RELATED WORK ON MODEL-BASED DIAGNOSIS": "This section reviews existing literature on model-based diagnosis, emphasizing the limitations of traditional manual dependency graphs in dynamic settings. It presents the background of various self-modeling approaches and their shortcomings, particularly regarding granularity issues.",
+        "IV. SELF-MODELING BASED DIAGNOSIS FRAMEWORK": "This chapter details the proposed framework for self-modeling based diagnosis, which consists of templates for network elements and an algorithm to create and refine a dependency graph based on real-time network topology.",
+        "V. VALIDATION OF DIAGNOSIS MODULE": "The validation section discusses experiments conducted to test the framework's efficiency in a simulated environment, confirming its capability to interpret network topology, scale effectively, and accurately identify root causes.",
+        "VI. CONCLUSIONS AND FUTURE WORK": "The conclusion summarizes the contributions of the paper and outlines future directions, including attempts to reduce uncertainty in diagnoses, enhance template learning, and model dependencies of VNFs."
+    },
+    "title": "Self-Modeling Based Diagnosis of Software-Defined Networks",
+    "author_name": "José Manuel Sánchez, Imen Grida Ben Yahia, Noel Crespi",
+    "summary": "  Networks built using SDN (Software-Defined Networks) and NFV (Network\nFunctions Virtualization) approaches are expected to face several challenges\nsuch as scalability, robustness and resiliency. In this paper, we propose a\nself-modeling based diagnosis to enable resilient networks in the context of\nSDN and NFV. We focus on solving two major problems: On the one hand, we lack\ntoday of a model or template that describes the managed elements in the context\nof SDN and NFV. On the other hand, the highly dynamic networks enabled by the\nsoftwarisation require the generation at runtime of a diagnosis model from\nwhich the root causes can be identified. In this paper, we propose finer\ngranular templates that do not only model network nodes but also their\nsub-components for a more detailed diagnosis suitable in the SDN and NFV\ncontext. In addition, we specify and validate a self-modeling based diagnosis\nusing Bayesian Networks. This approach differs from the state of the art in the\ndiscovery of network and service dependencies at run-time and the building of\nthe diagnosis model of any SDN infrastructure using our templates.\n",
+    "pdf_link": "http://arxiv.org/pdf/1507.03352v1",
+    "published": "2015-07-13",
+    "updated": "2015-07-13",
+    "author_info": {
+        "affiliation": "Animal Health and VISAVET. Universidad Complutense Madrid",
+        "scholar_id": "sHcPa6MAAAAJ",
+        "citation": 12331,
+        "num_publications": 441,
+        "hindex": 63,
+        "hindex5y": 39,
+        "i10index": 181,
+        "i10index5y": 120,
+        "latest_three_publications": [
+            "Gaps in African swine fever: Analysis and priorities", "2018",
+            "Relevant measures to prevent the spread of African swine fever in the European Union domestic pig sector", "2018",
+            "Phylodynamics and evolutionary epidemiology of African swine fever p72-CVR genes in Eurasia and Africa, 2018"
+        ]
+    },
+    "first_author_info_name": "José Manuel Sánchez",
+    "first_author_info_affiliation": "Animal Health and VISAVET. Universidad Complutense Madrid",
+    "first_author_info_scholar_id": "sHcPa6MAAAAJ",
+    "first_author_info_citation": 12331,
+    "first_author_info_num_publications": 441,
+    "first_author_info_hindex": 63,
+    "first_author_info_hindex5y": 39,
+    "first_author_info_i10index": 181,
+    "first_author_info_i10index5y": 120,
+    "first_author_info_latest_three1": "\nGaps in African swine fever: Analysis and priorities, 2018",
+    "first_author_info_latest_three2": "Relevant measures to prevent the spread of African swine fever in the European Union domestic pig sector, 2018",
+    "first_author_info_latest_three3": "Phylodynamics and evolutionary epidemiology of African swine fever p72-CVR genes in Eurasia and Africa, 2018",
+    "evaluation_from_ai": "The paper seems to be high-quality, as it addresses a complex and relevant issue within Software-Defined Networks (SDN) and Network Functions Virtualization (NFV), and the proposed solution is well-supported by advanced diagnostic methods like Bayesian Networks. The content tackles crucial challenges in SDN, such as scalability and resiliency, providing an innovative approach with finer granular templates for modeling network sub-components. However, there seems to be a mismatch between the provided author information and the research topic, raising questions about the listed expertise aligning well with this field.",
+    "substitute_paper1_names": "- http://arxiv.org/abs/1611.07717v1",
+    "substitute_paper2_names": "- http://arxiv.org/abs/1706.04188v2",
+    "substitute_paper3_names": "- http://arxiv.org/abs/1802.02147v2"
+}
+
