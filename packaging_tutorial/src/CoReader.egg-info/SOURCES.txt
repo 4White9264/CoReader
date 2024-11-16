@@ -1,6 +1,7 @@
 LICENSE
 README.md
 pyproject.toml
+setup.py
 src/CoReader.egg-info/PKG-INFO
 src/CoReader.egg-info/SOURCES.txt
 src/CoReader.egg-info/dependency_links.txt

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+/workspaces/CoReader/packaging_tutorial/src/_package_CoReader_Poly/CoReader.egg-info/PKG-INFO
+/workspaces/CoReader/packaging_tutorial/src/_package_CoReader_Poly/CoReader.egg-info/SOURCES.txt
+/workspaces/CoReader/packaging_tutorial/src/_package_CoReader_Poly/CoReader.egg-info/dependency_links.txt
+/workspaces/CoReader/packaging_tutorial/src/_package_CoReader_Poly/CoReader.egg-info/top_level.txt
+tests/test.py
